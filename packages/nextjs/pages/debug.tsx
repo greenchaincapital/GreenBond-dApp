@@ -17,7 +17,7 @@ const Debug: NextPage = () => {
           name="description"
           content="LSD provides liquid staking derivatives and leverage staking derivatives on your matic!"
         />
-        <link rel="shortcut icon" href="/lsd_logo_32x32.png" />
+        <link rel="shortcut icon" href="/logo2-32.png" />
       </Head>
       <div className="flex flex-col gap-y-6 lg:gap-y-8 py-8 lg:py-12 justify-center items-center">
         {contractNames.length === 0 ? (

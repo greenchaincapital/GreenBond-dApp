@@ -137,7 +137,7 @@ const Home: NextPage = () => {
         address: contracts[scaffoldConfig.targetNetwork.id][0]["contracts"]["LSD"]["address"],
         symbol: "gBOND",
         decimals: 18,
-        image: `${window.location.origin}${router.pathname}greenbond-logo.png`,
+        image: `${window.location.origin}${router.pathname}logo2.png`,
       },
     };
 
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
           name="description"
           content="GreenBond provides liquid staking derivatives and leverage staking derivatives on your usd!"
         />
-        <link rel="shortcut icon" href="/greenbond-logo-32.png" />
+        <link rel="shortcut icon" href="/logo2-32.png" />
       </Head>
 
       <div className="flex justify-around mt-12">

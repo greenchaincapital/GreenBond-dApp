@@ -50,7 +50,7 @@ const VaultStats: NextPage = () => {
           name="description"
           content="GreenBond provides liquid staking derivatives and leverage staking derivatives on your usd!"
         />
-        <link rel="shortcut icon" href="/greenbond-logo-32.png" />
+        <link rel="shortcut icon" href="/logo2-32.png" />
       </Head>
 
       <div className="flex flex-col mt-8">
