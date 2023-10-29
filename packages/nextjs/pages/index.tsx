@@ -329,7 +329,10 @@ const Home: NextPage = () => {
                     <button className="btn btn-ghost btn-xs opacity-70" onClick={() => setDepositValue(ethers.utils.formatUnits(usdcBalance, 6))}>
                       MAX
                     </button>
-                    <span className="m-0 ml-0.5 mt-px text-sm opacity-50">Balance: {ethers.utils.formatUnits(usdcBalance, 6)}</span>
+                    <span className="m-0 ml-0.5 mt-px text-sm opacity-50">
+                    {" "}
+                      {usdcBalance != undefined ? Number(ethers.utils.formatUnits(usdcBalance, 6)).toFixed(4) : "0"}
+                    </span>
                   </>
                 )}
               </div>
