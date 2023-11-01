@@ -204,7 +204,7 @@ const Home: NextPage = () => {
 
   const { writeAsync: w5 } = useScaffoldContractWrite({
     contractName: "LSD",
-    functionName: "redeem",
+    functionName: "withdraw",
     args: [
       contracts[scaffoldConfig.targetNetwork.id][0]["contracts"]["USDT"]["address"],
       redeemValue.toString() == "" ? ethers.utils.parseEther("0") : ethers.utils.parseEther(redeemValue.toString()),
